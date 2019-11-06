@@ -13,6 +13,30 @@
  */
 
 @import "bootstrap";
+h2, h3, {
+  font-family: 'McLaren', cursive;
+  h1 {
+    font-family: 'Lora', serif;
+  }
+}
+
+//footer
+.footer {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 70px;
+  text-align: center;
+  padding: 1rem 3rem;
+  padding-bottom: 3rem;
+}
+
+.fa{
+  float: left;
+  margin: 10px;
+  padding: 3px;
+}
 
 .home {
   background: #43C6AC;
@@ -22,5 +46,12 @@
 .home-jumbo {
   background: green;
   color: white;
-  
+}
+ .jumbotron {
+   padding: 1rem 5rem;
+   padding-bottom: 7rem;
+ }
+#container-tag {
+  margin-top: 5px;
+  padding-top: 2px;
 }

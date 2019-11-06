@@ -3,14 +3,20 @@
   <head>
     <title>Constructor</title>
     <%= csrf_meta_tags %>
-
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+      @import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="root_path"><h1><b>BUILT CONSULT</b></h1></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,5 +45,6 @@
       </div>
     </nav>
     <%= yield %>
+    <%= render 'shared/footer' %>
   </body>
 </html>
