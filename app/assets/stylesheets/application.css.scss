@@ -20,6 +20,22 @@ h2, h3, {
   }
 }
 
+//Header jumbotron 
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  /* padding-left: 1px; */
+  margin-right: auto;
+  margin-left: auto;
+  border: auto;
+  .lead {
+    padding-left: 0;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 //footer
 .footer {
   position: absolute;
@@ -55,4 +71,22 @@ h2, h3, {
 #container-tag {
   margin-top: 5px;
   padding-top: 2px;
+}
+
+.card-img {
+  background-color: #004e92; 
+}
+
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7rem;
+  max-height: 7rem;
+}
+
+.jumbo-img {
+  float: right;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
