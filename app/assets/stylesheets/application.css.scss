@@ -85,8 +85,17 @@ h2, h3, {
   max-height: 7rem;
 }
 
-.jumbo-img {
-  float: right;
-  margin-top: 2px;
-  margin-bottom: 2px;
+//about Us
+.about-us {
+ margin-left: 5rem;
+ margin-right: 4rem;
+}
+.heading {
+  text-align: center;
+  margin-top: 30px;
+}
+.about-us-img {
+ border-radius: 50%;
+ margin-left: 45%;
+ margin-right: 45%;
 }
