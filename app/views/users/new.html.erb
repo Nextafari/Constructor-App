@@ -6,15 +6,18 @@
       <div class="card">
         <%= form_for @user do |f| %>
           <%= f.label :name %>
-          <%= f.textfield :name, class:'form-control' %>
+          <%= f.text_field :name, class:'form-control' %><br>
           
           <%= f.label :email %>
-          <%= f.email_field :email, class:'form-control' %>
+          <%= f.email_field :email, class:'form-control' %><br>
           
           <%=f.label :password %>
-          <%= f.password_field :password, class:'form-control' %>
+          <%= f.password_field :password, class:'form-control' %><br>
           
-          <%= f.submit "Sign up", class:'btn btn-primary btn-md' %>
+          <%= f.label :password_confirmation %>
+          <%= f.password_field :password_confirmation, class:'form-control' %><br>
+          
+          <%= f.submit "Sign up", class:'btn btn-primary btn-md' %><br>
         <% end %>
       </div>
     </div>
